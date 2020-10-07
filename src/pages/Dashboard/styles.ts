@@ -31,7 +31,7 @@ export const Form = styled.form<FormProps>`
         border-radius: 5px 0 0 5px;
         color: #3a3a3a;
         border: 2px solid #fff;
-        border-right:0;
+        border-right:0
 
         ${(props) =>
         props.hasError &&
@@ -90,7 +90,7 @@ export const Repositories = styled.div`
         }
         
         div{
-            margin-left: 0 16px;
+            margin: 0 16px;
             flex: 1;
             strong{
                 font-size: 20px;
